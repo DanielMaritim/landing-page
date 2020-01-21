@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family:tahoma;
+    font-size: 15px;
+    color: black;
+    line-height: 1.5;
+}
+#case {
+    background-image: url(../image.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+
+}
+#case h1 {
+    font-size: 50px;
+}
+#case p {
+    font-size:20px ;
+}
+#case .button {
+    font-size: 16px;
+    text-decoration: none;
+    color:grey;
+    border:grey 0.5px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#case .button:hover{
+    background: grey;
+    color: white;
+}
+#section {
+    padding: 20px;
+    background:burlywood;
+    text-align: center;
+}
+#footer {
+    text-align: center;
+    background:bisque;
+    font-family: tahoma;
+}
